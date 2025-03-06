@@ -16,8 +16,8 @@ public class Calculator {
         return a * b;
     }
 
-    public double divide(int a, int b) {
+    public float divide(int a, int b) {
         // TODO: Implement this method
-        return a / b;
+        return (float) (a / b);
     }
 }
